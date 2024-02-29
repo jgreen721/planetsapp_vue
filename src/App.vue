@@ -58,7 +58,7 @@ onMounted(()=>{
 .app-overlay{
   position:absolute;
   inset:0;
-  background-image:url("./images/background-stars.svg");
+  background-image:url("/images/background-stars.svg");
 
    animation:spacefloating 25s linear infinite 
 
@@ -78,7 +78,7 @@ onMounted(()=>{
   width:100%;
   position:absolute;
   background:var(--darkblue);
-  background-image:url("./images/background-stars.svg");
+  background-image:url("/images/background-stars.svg");
   transform:translateX(10vw);
   /* border:3px solid pink; */
 
