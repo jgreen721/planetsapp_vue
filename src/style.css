@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --white: #ffffff;
+  --darkblue: #070724;
+  --darkgrey: #38384f;
+  --lightgrey: #838391;
+  --oceanblue: #419ebb;
+  --orange: #eda249;
+  --purple: #6f2ed6;
+  --orangered: #d14c32;
+  --red: #d83a34;
+  --orangered2: #cd5120;
+  --mintgreen: #1ec2a4;
+  --blue: #2d68f0;
+  --mainPaddingX: 16.5rem;
+
+  --mercury: var(--lightgrey);
+  --venus: var(--orange);
+  --earth: #545bfe;
+  --mars: #ff6a45;
+  --jupiter: #ecad7a;
+  --saturn: #fccb6b;
+  --uranus: #1ec2a4;
+  --neptune: #497efa;
+  --spartanFont: "League Spartan", sans-serif;
+  --antonioFont: "Antonio", sans-serif;
+}
+
+.mercury {
+  background: var(--mercury);
+}
+
+.venus {
+  background: var(--venus);
+}
+
+.earth {
+  background: var(--earth);
+}
+
+.mars {
+  background: var(--mars);
+}
+
+.jupiter {
+  background: var(--jupiter);
+}
+
+.saturn {
+  background: var(--saturn);
+}
+
+.uranus {
+  background: var(--uranus);
+}
+
+.neptune {
+  background: var(--neptune);
+}
+
+body {
+  background: var(--darkblue);
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.muted {
+  opacity: 50%;
+}
+
+.no-hover {
+  pointer-events: none;
+}
+
+.formal-font {
+  font-family: var(--spartanFont);
+}
+
+.flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1050px) {
+  :root {
+    --mainPaddingX: 3.5rem;
+  }
+}
+
+@keyframes scalegrow {
+  0% {
+    transform: scale(0);
+  }
+  65% {
+    transform: scale(1.5, 1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
