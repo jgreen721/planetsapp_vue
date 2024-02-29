@@ -90,7 +90,7 @@ onMounted(()=>{
   width:100%;
   position:absolute;
   background:var(--darkblue);
-  background-image:url("./images/background-stars.svg");
+  background-image:url("/images/background-stars.svg");
   transform:translateX(100vw);
   z-index:10;
     /* border:3px solid green; */
